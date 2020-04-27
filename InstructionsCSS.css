@@ -3,7 +3,7 @@ body {
 }
 
 #warnings {
-	color: red;
+	color: #db3232;
 }
 
 #do{
@@ -11,7 +11,7 @@ body {
 }
 
 #donot {
-	color: orange;
+	color: #c4721a;
 }
 
 #wlist {
