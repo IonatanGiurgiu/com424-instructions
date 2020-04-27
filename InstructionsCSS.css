@@ -1,0 +1,35 @@
+body {
+	background-color: cyan;
+}
+
+#warnings {
+	color: red;
+}
+
+#do{
+	color: green;
+}
+
+#donot {
+	color: orange;
+}
+
+#wlist {
+  list-style-image: url('warning-symbol-small.png');
+  padding-left: 64px;
+}
+
+#rmimg, #unplugimg, #underrug{
+	float: right;
+}
+
+@media screen and (max-width: 750px) {
+	#rmimg{
+		float: none;
+		height: 184px;
+		width: 276px;
+	}
+	#unplugimg, #underrug{
+		float: none;
+	}
+}
